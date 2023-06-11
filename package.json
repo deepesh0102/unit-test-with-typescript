@@ -1,0 +1,31 @@
+{
+	"name": "unit-test-with-typescript",
+	"version": "1.0.0",
+	"description": "Unit test With Typescript",
+	"main": "index.ts",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/deepesh0102/unit-test-with-typescript.git"
+	},
+	"keywords": [
+		"Nodejs",
+		"typescript",
+		"jest"
+	],
+	"author": "Deepesh Kumar",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/deepesh0102/unit-test-with-typescript/issues"
+	},
+	"homepage": "https://github.com/deepesh0102/unit-test-with-typescript#readme",
+	"devDependencies": {
+		"@types/jest": "^29.5.2",
+		"jest": "^29.5.0",
+		"ts-jest": "^29.1.0",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.3"
+	}
+}
