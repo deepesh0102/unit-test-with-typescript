@@ -12,5 +12,5 @@ describe('Utils test suite', () => {
 
 		// assert
 		expect(actual).toBe(expected);
-	});
+	}); 
 });
