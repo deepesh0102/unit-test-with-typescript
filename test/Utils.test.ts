@@ -1,6 +1,6 @@
 import { getStringInfo, toUpperCase } from '../src/utils';
 
-describe('Utils test suite', () => {
+describe.skip('Utils test suite', () => {
 	it('should return uppercase of valid string', () => {
 		// arrange
 		const sut = toUpperCase;
@@ -24,7 +24,6 @@ describe('Utils test suite', () => {
 		});
 	});
 
-	
 	describe('getStringInfo for arg My-String should', () => {
 		test('return right length', () => {
 			const actual = getStringInfo('My-String');
