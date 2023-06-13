@@ -4,7 +4,8 @@
 	"description": "Unit test With Typescript",
 	"main": "index.ts",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"test-watch": "jest --watch"
 	},
 	"repository": {
 		"type": "git",
