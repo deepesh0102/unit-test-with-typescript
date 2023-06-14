@@ -1,6 +1,6 @@
 import { OtherStringUtils } from '../../app/doubles/Spies';
-describe('Spies test suite', () => {
-	describe.only('Tracking callbacks tests with spies', () => {
+describe.skip('Spies test suite', () => {
+	describe('Tracking callbacks tests with spies', () => {
 		let sut: OtherStringUtils;
 
 		beforeEach(() => {
