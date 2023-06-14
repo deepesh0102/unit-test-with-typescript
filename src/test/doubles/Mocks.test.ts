@@ -1,7 +1,11 @@
 import { toUpperCaseWithCallBack } from '../../app/doubles/Mocks';
 
-describe('Mocks test suite', () => {
-	describe.only('Tracking callbacks with Jest mocks', () => {
+/******************************************************************************/
+/*  MOcks is used for How many time called function AND What arguments passed */
+/******************************************************************************/
+
+describe.skip('Mocks test suite', () => {
+	describe('Tracking callbacks with Jest mocks', () => {
 		const callBackMock = jest.fn();
 
 		afterEach(() => {
