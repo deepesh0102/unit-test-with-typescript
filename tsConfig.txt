@@ -101,3 +101,17 @@
 	"include": ["./src/**/*"],
 	"exclude": ["./node_modules/*", "src/test/**/*.test.ts", "./jest.config.ts"]
 }
+
+
+
+/*Script Package.json*/
+"scripts": {
+		"start": "ts-node src/app/server_app/Launcher.ts",
+		"dev": "nodemon --config nodemon.json src/index.ts",
+		"dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts",
+		"prestart": "npm run build",
+		"build": "tsc",
+		"test": "jest",
+		"test-watch": "jest --watch"
+	}
+/*Script Package.json*/	
