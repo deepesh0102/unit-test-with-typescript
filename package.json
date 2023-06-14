@@ -4,6 +4,7 @@
 	"description": "Unit test With Typescript",
 	"main": "index.ts",
 	"scripts": {
+		"start": "ts-node src/app/server_app/Launcher.ts",
 		"dev": "nodemon --config nodemon.json src/index.ts",
 		"dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts",
 		"prestart": "npm run build",
