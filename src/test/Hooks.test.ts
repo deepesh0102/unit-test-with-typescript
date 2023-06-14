@@ -1,7 +1,7 @@
-import { StringUtils } from '../src/Hooks';
+import { StringUtils } from '../app/Hooks';
 
 describe('Hooks test suite', () => {
-	describe.only('StringUtils tests', () => {
+	describe('StringUtils tests', () => {
 		let sut: StringUtils;
 
 		beforeEach(() => {

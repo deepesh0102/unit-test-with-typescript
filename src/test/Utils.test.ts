@@ -1,6 +1,6 @@
-import { getStringInfo, toUpperCase } from '../src/utils';
+import { getStringInfo, toUpperCase } from '../app/utils';
 
-describe.skip('Utils test suite', () => {
+describe('Utils test suite', () => {
 	it('should return uppercase of valid string', () => {
 		// arrange
 		const sut = toUpperCase;

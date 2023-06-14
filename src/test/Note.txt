@@ -3,3 +3,8 @@ AAA principles:
     - arrange
     - act
     - assert
+
+Alias
+    - skip => xit
+    - only => fit
+    - test => it
